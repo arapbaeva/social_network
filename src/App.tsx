@@ -4,6 +4,7 @@ import {Header} from "src/layout/header/Header";
 import {Main} from "src/layout/section/Main";
 import {Menu} from "src/layout/menu/Menu";
 import {About} from "src/layout/section/About";
+import {Posts} from "src/layout/section/Posts";
 
 
 
@@ -14,7 +15,7 @@ function App() {
 <GridItem><Header/></GridItem>
 <GridItem><Main/></GridItem>
 <GridItem><About/></GridItem>
-<GridItem>5</GridItem>
+<GridItem><Posts/></GridItem>
 <GridItem>6</GridItem>
 <GridItem>7</GridItem>
 <GridItem>8</GridItem>
