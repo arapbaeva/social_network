@@ -30,7 +30,7 @@ const Field = styled.input.attrs(({type, placeholder, color}) => ({
     placeholder: placeholder,
     color: color
 }))`
-  margin: 10px 0;
+  //margin: 10px 0;
   width: 100%;
   height: 62px;
   background: #FFFFFF;

@@ -6,7 +6,7 @@ import {Logo} from "src/components/logo/Logo";
 export const Menu = () => {
     return (
         <StyledMenu>
-            <Logo/>
+            <Logo />
             <ul>
                 <li><a href=""><Icon iconId={'home'} height={'20'} width={'20'} viewBox={'0 0 20 20'}/>Home</a></li>
                 <li><a href=""><Icon iconId={'person'} height={'20'} width={'20'} viewBox={'0 0 20 20'}/>Profile</a></li>
@@ -21,15 +21,22 @@ export const Menu = () => {
 };
 
 const StyledMenu = styled.nav`
-  padding: 200px 50px;
   background-color: #490057;
   min-height: 100vh;
-max-width: 20%;
-  
-ul{
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
-  gap: 30px;
+  align-items: center;
+  //gap: 25px;
+ 
+a{
+
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-decoration: none;
+  &:hover{
+    color:#FBB03B
+  }
 }
 
 `

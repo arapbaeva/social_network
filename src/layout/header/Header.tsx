@@ -4,22 +4,29 @@ import {Menu} from "src/layout/menu/Menu";
 import {Input} from "src/components/input/Input";
 import {StyledName, UserName} from "src/components/userName/UserName";
 import {StyledAvatar} from "src/components/styledAvatar/StyledAvatar";
-import Ava from 'src/assets/images/Profile photo.png'
+import Ava from "src/assets/images/img&bg.png";
+import {LogOut} from "src/components/logout/LogOut";
+import {FlexWrapper} from "src/components/flexWrapper/FlexWrapper";
 
 
 export const Header = () => {
     return (
         <>
             <StyledHeader>
-                <Menu/>
                 <Input/>
-                {/*<StyledBox>*/}
-                    {/*<StyledName color={'green'}>*/}
-                        <UserName  name={'Aiym'} surName={'Vector'}/>
-                    {/*</StyledName>*/}
+<div>
+    <FlexWrapper align={'center '} justify={'space-around'}  >
+        <div>
+            <UserName name={'Aiym'} surName={'Vector'}/>
+            <LogOut/>
+        </div>
+            <StyledAvatar width={'60px'} height={'60px'} src={Ava}/>
 
-                    <StyledAvatar width={'60px'} height={'60px'} src={Ava}/>
-                {/*</StyledBox>*/}
+
+    </FlexWrapper>
+</div>
+
+
 
             </StyledHeader>
         </>

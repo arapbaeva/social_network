@@ -26,7 +26,7 @@ export const StyledName = styled.span<StyledNameType>`
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 700;
-  margin: 35px 0;
+  //margin: 35px 0;
 `
 
 
