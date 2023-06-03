@@ -18,6 +18,7 @@ type StyledNameType = {
     size?: string
     color?: string
     lineHeight?: string
+    fontWeight?: string
 }
 export const StyledName = styled.span<StyledNameType>`
   font-size: ${(props) => props.size || '12px'};
@@ -25,7 +26,7 @@ export const StyledName = styled.span<StyledNameType>`
   line-height: ${(props) => props.lineHeight || '16px'};
   font-family: 'Nunito', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: ${(props) => props.fontWeight || '700'};
   //margin: 35px 0;
 `
 

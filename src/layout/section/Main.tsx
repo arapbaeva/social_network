@@ -52,30 +52,32 @@ const EditCoverButton = styled(StyledButton)`
   right: 54px;
   z-index: 1;
 `;
-const CoverImgWrapper = styled.div`
+
+
+export const CoverImgWrapper = styled.div`
   position: relative;
   height: 280px;
   border-radius: 5px;
   overflow: hidden;
 `;
-const CoverImg = styled.img`
+export const CoverImg = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
 `
 
-const AvatarWrapper = styled.div`
+export const AvatarWrapper = styled.div`
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-250%, -20%);
 `;
 
-const TextWrapper = styled.div`
-
+export const TextWrapper = styled.div`
+margin-left: 20px;
 `
 
-const JobTitle = styled.p`
+export const JobTitle = styled.p`
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 400;
