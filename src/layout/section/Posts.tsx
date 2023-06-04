@@ -27,7 +27,7 @@ export const Posts = () => {
     <TextWrapper>
         <UserName name={'Charles'} surName={'Deo'} size={'16px'} lineHeight={'22px'} />
         <Title>
-            15min ago
+            15 min ago
         </Title>
     </TextWrapper>
     <Icon iconId={'more'} width="24" height="24" viewBox="0 0 24 24"/>
@@ -70,13 +70,20 @@ const StyledSpan = styled.span`
   color: #490057;
 `
 
-const Title = styled.div`
+type TitlePropsType = {
+    lineHeight?: string
+    size?: string
+    weight?: string
+    opacity?: string
+}
+export const Title = styled.div<TitlePropsType >`
   font-family: 'Nunito', sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: ${props => props.weight || '300'} ;
+  font-size:${props => props.size || '10px'};
   color: #490057;
-
+  line-height: ${props => props.lineHeight || '14px'};
+opacity: ${props=>props.opacity || 'none'};
 `
 
 const StyledPosts = styled.div`

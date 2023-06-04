@@ -11,12 +11,21 @@ export const Familiar = () => {
     return (
         <StyledFamiliar>
             <h2>You might know</h2>
-            <FlexWrapper>
+            <FlexWrapper direction={'column'}>
+                <div>
+                    <StyledAvatar src={UserAva} width={'34px'} height={'34px'}/>
+                </div>
+              <div>
+                  <UserName name={'Eddie'} surName={'Lobanovskii'} fontWeight={'400'} />
+                  <StyledEmail>laboanovskiy@gmail.com</StyledEmail>
+              </div>
                 <StyledAvatar src={UserAva} width={'34px'} height={'34px'}/>
                 <UserName name={'Eddie'} surName={'Lobanovskii'} fontWeight={'400'} />
                 <StyledEmail>laboanovskiy@gmail.com</StyledEmail>
 
-
+                <StyledAvatar src={UserAva} width={'34px'} height={'34px'}/>
+                <UserName name={'Eddie'} surName={'Lobanovskii'} fontWeight={'400'} />
+                <StyledEmail>laboanovskiy@gmail.com</StyledEmail>
             </FlexWrapper>
         </StyledFamiliar>
     );
@@ -24,9 +33,8 @@ export const Familiar = () => {
 
 export const StyledFamiliar = styled(StyledAbout)`
   align-items: center;
-
 `
-const StyledEmail = styled.div`
+export const StyledEmail = styled.div`
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 400;
