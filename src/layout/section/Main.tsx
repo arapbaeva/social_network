@@ -39,6 +39,7 @@ display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 35px 54px  35px 280px;
+  
 `
 
 const StyledMain = styled.div`
@@ -74,7 +75,7 @@ export const AvatarWrapper = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-margin-left: 20px;
+margin-left: 50px;
 `
 
 export const JobTitle = styled.p`

@@ -19,3 +19,10 @@ li{
     display: flex;
     gap:15px
 }
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

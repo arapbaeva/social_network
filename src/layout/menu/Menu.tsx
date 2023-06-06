@@ -22,15 +22,15 @@ export const Menu = () => {
 
 const StyledMenu = styled.nav`
   background-color: #490057;
-  min-height: 100vh;
+  height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  //gap: 25px;
+  gap: 65px;
+  padding-top: 45px;
  
 a{
-
   color: #FFFFFF;
   opacity: 0.7;
   text-decoration: none;
