@@ -16,14 +16,9 @@ export const Header = () => {
                 <Input/>
                     <FlexWrapper align={'center '} justify={'space-around'}>
                             <UserName name={'Aiym'} surName={'Vector'}/>
-
                             <LogOut/>
-
                         <StyledAvatar width={'60px'} height={'60px'} src={Ava}/>
-
-
                     </FlexWrapper>
-
             </StyledHeader>
         </>
 
