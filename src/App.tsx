@@ -7,6 +7,7 @@ import {About} from "src/layout/section/About";
 import {Posts} from "src/layout/section/Posts";
 import {Familiar} from "src/layout/section/Familiar";
 import {ActiveUsers} from "src/layout/section/ActiveUsers";
+import {Footer} from "src/layout/footer/Footer";
 
 
 
@@ -20,7 +21,7 @@ function App() {
 <GridItem><Posts/></GridItem>
 <GridItem><Familiar/></GridItem>
 <GridItem><ActiveUsers/>    </GridItem>
-<GridItem>8</GridItem>
+<GridItem><Footer/></GridItem>
 
 
         </GridContainer>

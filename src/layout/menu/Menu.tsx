@@ -34,6 +34,11 @@ a{
   color: #FFFFFF;
   opacity: 0.7;
   text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
   &:hover{
     color:#FBB03B
   }
