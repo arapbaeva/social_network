@@ -12,7 +12,7 @@ export const Familiar = () => {
     return (
         <StyledFamiliar>
             <h2>You might know</h2>
-            <FlexWrapper direction={'column'}>
+            <FlexWrapper direction={'column'} >
                 <UserInfo/>
                 <UserInfo/>
                 <UserInfo/>
