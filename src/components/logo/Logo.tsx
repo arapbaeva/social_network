@@ -7,7 +7,7 @@ export const Logo = () => {
         <StyledLogo>
                 <Icon iconId={'subtract'} width="38" height="38" viewBox="0 0 38 38"/>
             <LogoSpan>
-                ЗММ
+                AIYM
             </LogoSpan>
 
         </StyledLogo>
@@ -22,6 +22,9 @@ const StyledLogo= styled.div`
   font-size: 24px;
   line-height: 33px;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 15px;
  
   
   

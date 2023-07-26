@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlexWrapper} from 'src/components/flexWrapper/FlexWrapper';
+import {FlexWrapper} from 'src/components/flex-wrapper/FlexWrapper';
 import {Line} from 'src/components/line/Line';
 import styled from "styled-components";
 

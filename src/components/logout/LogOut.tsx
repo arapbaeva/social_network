@@ -10,7 +10,7 @@ export const LogOut = () => {
     );
 };
 
-const StyledLogOut = styled.span`
+const StyledLogOut = styled.p`
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 300;

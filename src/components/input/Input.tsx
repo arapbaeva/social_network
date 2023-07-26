@@ -40,6 +40,7 @@ const Field = styled.input.attrs(({type, placeholder, color}) => ({
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  
   color: #490057;
   opacity: 0.7;
   padding-left: 4rem;

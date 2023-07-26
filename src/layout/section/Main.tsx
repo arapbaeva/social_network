@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
 import IMG from 'src/assets/images/cover-image.webp'
-import {StyledAvatar} from "src/components/styledAvatar/StyledAvatar";
+import {StyledAvatar} from "src/components/styled-avatar/StyledAvatar";
 import Ava from "src/assets/images/img&bg.png";
-import {UserName} from "src/components/userName/UserName";
-import {StyledButton} from "src/components/styledButton/StyledButton";
+import {UserName} from "src/components/user-name/UserName";
+import {StyledButton} from "src/components/styled-button/StyledButton";
 
 export const Main = () => {
     return (

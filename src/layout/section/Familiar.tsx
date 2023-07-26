@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {StyledAbout} from "src/layout/section/About";
-import {FlexWrapper} from "src/components/flexWrapper/FlexWrapper";
-import {StyledAvatar} from "src/components/styledAvatar/StyledAvatar";
-import UserAva from 'src/assets/images/img&bg.png'
-import {UserName} from "src/components/userName/UserName";
+import {FlexWrapper} from "src/components/flex-wrapper/FlexWrapper";
 import {UserInfo} from "src/components/user-info/UserInfo";
 
 

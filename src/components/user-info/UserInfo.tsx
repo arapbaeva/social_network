@@ -1,7 +1,7 @@
 import React from 'react';
-import {StyledAvatar} from "src/components/styledAvatar/StyledAvatar";
+import {StyledAvatar} from "src/components/styled-avatar/StyledAvatar";
 import UserAva from "src/assets/images/img&bg.png";
-import { UserName} from "src/components/userName/UserName";
+import { UserName} from "src/components/user-name/UserName";
 import {StyledEmail} from "src/layout/section/Familiar";
 import styled from "styled-components";
 
